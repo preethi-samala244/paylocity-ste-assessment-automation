@@ -60,6 +60,9 @@ All test scripts were written manually (no record-and-playback tools used), as r
 ✔ Data integrity validation  
 
 ---
+<img width="1067" height="738" alt="image" src="https://github.com/user-attachments/assets/a407de40-b959-4365-9758-e06b6228f4be" />
+
+<img width="1917" height="996" alt="image" src="https://github.com/user-attachments/assets/649da12f-0452-4f82-984f-c354c162cdd0" />
 
 ## Key API Validations
 
