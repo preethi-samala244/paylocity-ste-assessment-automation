@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-02T09:54:05 IST" name="Automation Suite" finished-at="2026-03-02T09:54:46 IST" duration-ms="40403">
+    <groups>
+    </groups>
+    <test started-at="2026-03-02T09:54:05 IST" name="API Tests" finished-at="2026-03-02T09:54:14 IST" duration-ms="8894">
+      <class name="api.EmployeeLifecycleTest">
+        <test-method signature="test_employee_full_lifecycle()[pri:0, instance:api.EmployeeLifecycleTest@1de76cc7]" started-at="2026-03-02T09:54:09 IST" name="test_employee_full_lifecycle" finished-at="2026-03-02T09:54:12 IST" duration-ms="2593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_employee_full_lifecycle -->
+      </class> <!-- api.EmployeeLifecycleTest -->
+      <class name="api.CreateEmployeeTest">
+        <test-method signature="test_create_employee()[pri:0, instance:api.CreateEmployeeTest@485966cc]" started-at="2026-03-02T09:54:07 IST" name="test_create_employee" finished-at="2026-03-02T09:54:09 IST" duration-ms="2258" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_create_employee -->
+      </class> <!-- api.CreateEmployeeTest -->
+      <class name="api.NegativeCasesTest">
+        <test-method signature="test_invalid_dependants()[pri:0, instance:api.NegativeCasesTest@54bff557]" started-at="2026-03-02T09:54:12 IST" name="test_invalid_dependants" finished-at="2026-03-02T09:54:13 IST" duration-ms="762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_invalid_dependants -->
+        <test-method signature="test_missing_required_fields()[pri:0, instance:api.NegativeCasesTest@54bff557]" started-at="2026-03-02T09:54:13 IST" name="test_missing_required_fields" finished-at="2026-03-02T09:54:14 IST" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_missing_required_fields -->
+        <test-method signature="test_negative_salary_behavior()[pri:0, instance:api.NegativeCasesTest@54bff557]" started-at="2026-03-02T09:54:14 IST" name="test_negative_salary_behavior" finished-at="2026-03-02T09:54:14 IST" duration-ms="784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_negative_salary_behavior -->
+      </class> <!-- api.NegativeCasesTest -->
+      <class name="api.AuthenticationTest">
+        <test-method signature="test_api_without_auth_should_fail()[pri:0, instance:api.AuthenticationTest@209da20d]" started-at="2026-03-02T09:54:05 IST" name="test_api_without_auth_should_fail" finished-at="2026-03-02T09:54:07 IST" duration-ms="1668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_api_without_auth_should_fail -->
+      </class> <!-- api.AuthenticationTest -->
+    </test> <!-- API Tests -->
+    <test started-at="2026-03-02T09:54:14 IST" name="UI Tests" finished-at="2026-03-02T09:54:46 IST" duration-ms="31478">
+      <class name="ui.EmployeesUITest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:ui.EmployeesUITest@18df8434]" started-at="2026-03-02T09:54:14 IST" name="setup" finished-at="2026-03-02T09:54:16 IST" duration-ms="1380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_add_employee_ui()[pri:0, instance:ui.EmployeesUITest@18df8434]" started-at="2026-03-02T09:54:16 IST" name="test_add_employee_ui" finished-at="2026-03-02T09:54:25 IST" duration-ms="9348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_add_employee_ui -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ui.EmployeesUITest@18df8434]" started-at="2026-03-02T09:54:25 IST" name="tearDown" finished-at="2026-03-02T09:54:25 IST" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ui.EmployeesUITest@18df8434]" started-at="2026-03-02T09:54:25 IST" name="setup" finished-at="2026-03-02T09:54:26 IST" duration-ms="840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_delete_employee_ui()[pri:0, instance:ui.EmployeesUITest@18df8434]" started-at="2026-03-02T09:54:26 IST" name="test_delete_employee_ui" finished-at="2026-03-02T09:54:36 IST" duration-ms="9455" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_delete_employee_ui -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ui.EmployeesUITest@18df8434]" started-at="2026-03-02T09:54:36 IST" name="tearDown" finished-at="2026-03-02T09:54:36 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:ui.EmployeesUITest@18df8434]" started-at="2026-03-02T09:54:36 IST" name="setup" finished-at="2026-03-02T09:54:37 IST" duration-ms="1049" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_update_employee_ui()[pri:0, instance:ui.EmployeesUITest@18df8434]" started-at="2026-03-02T09:54:37 IST" name="test_update_employee_ui" finished-at="2026-03-02T09:54:46 IST" duration-ms="8726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_update_employee_ui -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:ui.EmployeesUITest@18df8434]" started-at="2026-03-02T09:54:46 IST" name="tearDown" finished-at="2026-03-02T09:54:46 IST" duration-ms="287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ui.EmployeesUITest -->
+    </test> <!-- UI Tests -->
+  </suite> <!-- Automation Suite -->
+</testng-results>
